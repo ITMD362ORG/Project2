@@ -2,23 +2,25 @@
 
 #navbar-container {
     overflow: hidden;
-    background-color: #23232B;
+    background-color: #b7301d;
+}
+#navbar-container ul {
+    list-style-type: none;
 }
 #navbar-container a {
-    list-style-type: none;
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 14px;
+    padding: 14px;
     text-decoration: none;
     font-size: 1em;
 }
-#navbar-container a:hover:not(#onpage) {
-    background-color: #111;
+#navbar-container a:hover:not(.onpage) {
+    background-color: #9f2919;
 } 
 #navbar-container .onpage {
-    background-color: #A25D53;
+    background-color: #cea23d;
 }
 
 /*Home Page*/
@@ -26,3 +28,6 @@
 /*About Us Page*/
 
 /*Purchase Page*/
+body{
+    color: black;
+}
