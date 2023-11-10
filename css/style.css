@@ -7,8 +7,8 @@ Grey: #6f8695
 */
 /*All pages*/
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 body {
     background-color: #6f8695;
@@ -18,63 +18,60 @@ body {
     padding: 0;
   }  
 #navbar-container {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #b7301d;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #b7301d;
 }
 #navbar-container ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 #navbar-container a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 1.2em;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 #navbar-container a:hover:not(.onpage) {
-    background-color: #9f2919;
+  background-color: #9f2919;
 } 
 #navbar-container .onpage {
-    background-color: #cea23d;
+  background-color: #cea23d;
 }
 /*Home Page*/
 .fb-like-container {
-    text-align: center;
-    margin: 20px;
-  }  
-  .fb-like {
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-  }
-  .fb-like iframe {
-    border: none;
-    overflow: hidden;
-    height: 27px !important;
-  }
-  .fb-like span {
-    vertical-align: middle;
-    display: inline-block;
-    margin-top: -3px;
-  } 
+  text-align: center;
+  margin: 20px;
+}  
+.fb-like {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.fb-like iframe {
+  border: none;
+  overflow: hidden;
+  height: 27px !important;
+}
+.fb-like span {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -3px;
+} 
 /*About Us Page*/
 .header-img {
   position: relative;
   width: 100%;
   text-align: center;
-
 }
-
 .header-img img {
   width: 100%;
   height: 400px;
   max-width: 100%;
 }
-
 .content {
     text-align: center;
     padding: 20px;
@@ -101,7 +98,6 @@ body {
 #p1{
   padding-top: 20px;
 }
-
 .slider-section{
   min-height: 100vh;
   display: grid;
@@ -116,9 +112,9 @@ body {
   perspective: 100px;
 }
 .slider img {
-    height: 100%;
-    width: 100%;
-    transition: transform 1s;
+  height: 100%;
+  width: 100%;
+  transition: transform 1s;
 }
 .image-slider {
   display: grid;
@@ -132,14 +128,6 @@ body {
   display: flex;
   width: calc(300px*12);
   animation: play 40s linear infinite;
-}
-@keyframes play{
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px*6));
-  }
 }
 .image-slider::before, .image-slider::after {
   background: linear-gradient(to right, #6f8695 100%);
@@ -169,3 +157,15 @@ body {
 #PurchaseNote{
   padding: 5px;
 }
+/*media queries for About Us*/
+@keyframes play{
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px*6));
+  }
+}
+/*media queries for Home*/
+
+/*media queries for Purchase*/
