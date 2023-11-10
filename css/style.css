@@ -81,6 +81,7 @@ body {
 }
 .content h1{
   text-decoration: underline;
+  font-weight: bolder;
   padding-top: 10px;
   padding-bottom: 70px;
 }
@@ -97,6 +98,13 @@ body {
 }
 #p1{
   padding-top: 20px;
+}
+#galery {
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .slider-section{
   min-height: 100vh;
