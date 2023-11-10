@@ -79,6 +79,10 @@ body {
     height: 100%;
     width: 100%;
 }
+.image-slider {
+    display: grid;
+    place-items: center;
+}
 /*Purchase Page*/
 .purchase h1{
     color: #b0cb96;
