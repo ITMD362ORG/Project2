@@ -10,14 +10,6 @@ Grey: #6f8695
     margin: 0px;
     padding: 0px;
 }
-.top-navbar{
-    width: 100%;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
 #navbar-container {
     margin: 0px;
     padding: 0px;
@@ -42,26 +34,33 @@ Grey: #6f8695
 #navbar-container .onpage {
     background-color: #cea23d;
 }
-
 /*Home Page*/
-#homeNav{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car1.jpg);
-}
+.fb-like-container {
+    text-align: center;
+    margin: 20px;
+  }  
+  .fb-like {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .fb-like iframe {
+    border: none;
+    overflow: hidden;
+    height: 27px !important;
+  }
+  .fb-like span {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+  } 
 /*About Us Page*/
-#aboutNav{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car3.jpg);
-}
+
 /*Purchase Page*/
-#purchH1{
-    background-color: #b7301d;
-    color: #fff;
-    padding-left: 10px;
-}
-#purchNav{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/parts.jpg);
+.purchase h1{
+    color: #b0cb96;
+    padding: 10px 0px 0px 10px ;
 }
 #PurchaseNote{
-    margin: 20px;    
-    border: #b0cb96;
-    border-style: dashed; 
+    padding: 5px;
 }
