@@ -52,14 +52,16 @@ Grey: #6f8695
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car3.jpg);
 }
 /*Purchase Page*/
+#purchH1{
+    background-color: #b7301d;
+    color: #fff;
+    padding-left: 10px;
+}
 #purchNav{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/parts.jpg);
 }
-/*
-.purchase h1{
-    color: #b0cb96;
-    padding: 10px 0px 0px 10px ;
-}*/
 #PurchaseNote{
-    padding: 5px;
+    margin: 20px;    
+    border: #b0cb96;
+    border-style: dashed; 
 }
