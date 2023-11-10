@@ -44,7 +44,10 @@ Grey: #6f8695
 }
 
 /*Home Page*/
-
+.fb-like-container {
+    text-align: center;
+    margin: 20px;
+}
 /*About Us Page*/
 
 /*Purchase Page*/
