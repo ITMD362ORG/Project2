@@ -10,6 +10,13 @@ Grey: #6f8695
     margin: 0px;
     padding: 0px;
 }
+body {
+    background-color: #6f8695;
+    font-family: 'Cinzel', serif;
+    color: #272d2d;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }  
 #navbar-container {
     margin: 0px;
     padding: 0px;
@@ -55,7 +62,23 @@ Grey: #6f8695
     margin-top: -3px;
   } 
 /*About Us Page*/
-
+.content {
+    text-align: center;
+    padding: 20px;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+.slider {
+   height: 150px; 
+   width: 200px;
+   display: grid;
+   place-items: center;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
 /*Purchase Page*/
 .purchase h1{
     color: #b0cb96;
