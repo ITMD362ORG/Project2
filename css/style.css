@@ -14,8 +14,8 @@ body {
     background-color: #6f8695;
     font-family: 'Cinzel', serif;
     color: #272d2d;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
   }  
 #navbar-container {
     margin: 0px;
@@ -62,45 +62,58 @@ body {
     margin-top: -3px;
   } 
 /*About Us Page*/
+.header-img {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+}
+
+.header-img img {
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+}
+
 .content {
     text-align: center;
     padding: 20px;
-  }
-  .content h1, h2 {
-    text-align: center;
-  }
-  .content h1{
-    text-decoration: underline;
-    padding-top: 10px;
-    padding-bottom: 70px;
-  }
-  .content h2 {
-    padding-bottom: 30px;
-  }
-  .paragraphs {
-    text-align: justify;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  #p1, #p2, #p3, #p4, #p5, #p6{
-    padding-bottom: 20px;
-  }
-  #p1{
-    padding-top: 20px;
-  }
+}
+.content h1, h2 {
+  text-align: center;
+}
+.content h1{
+  text-decoration: underline;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+.content h2 {
+  padding-bottom: 30px;
+}
+.paragraphs {
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#p1, #p2, #p3, #p4, #p5, #p6{
+  padding-bottom: 20px;
+}
+#p1{
+  padding-top: 20px;
+}
 
-  .slider-section{
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-  }
+.slider-section{
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
 .slider {
-   height: 150px; 
-   width: 200px;
-   display: grid;
-   place-items: center;
-   padding: 15px;
-   perspective: 100px;
+  height: 200px; 
+  width: 300px;
+  display: grid;
+  place-items: center;
+  padding: 15px;
+  perspective: 100px;
 }
 .slider img {
     height: 100%;
@@ -108,16 +121,16 @@ body {
     transition: transform 1s;
 }
 .image-slider {
-    display: grid;
-    place-items: center;
-    position: relative;
-    overflow: hidden;
-    height: 250px;
-    width: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  width: 100%;
 }
 .slider-track {
   display: flex;
-  width: calc(200px*12);
+  width: calc(300px*12);
   animation: play 40s linear infinite;
 }
 @keyframes play{
@@ -150,9 +163,9 @@ body {
 }
 /*Purchase Page*/
 .purchase h1{
-    color: #b0cb96;
-    padding: 10px 0px 0px 10px ;
+  color: #b0cb96;
+  padding: 10px 0px 0px 10px ;
 }
 #PurchaseNote{
-    padding: 5px;
+  padding: 5px;
 }
