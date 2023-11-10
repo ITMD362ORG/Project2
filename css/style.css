@@ -1,4 +1,4 @@
-/*Color Palette: 
+/*Color Palette:
 Gold: #cea23d
 Red: #b7301d
 Green: #b0cb96
@@ -16,7 +16,7 @@ body {
     color: #272d2d;
     margin: 0;
     padding: 0;
-  }  
+  }
 #navbar-container {
   margin: 0px;
   padding: 0px;
@@ -37,7 +37,7 @@ body {
 }
 #navbar-container a:hover:not(.onpage) {
   background-color: #9f2919;
-} 
+}
 #navbar-container .onpage {
   background-color: #cea23d;
 }
@@ -45,7 +45,7 @@ body {
 .fb-like-container {
   text-align: center;
   margin: 20px;
-}  
+}
 .fb-like {
   display: inline-block;
   overflow: hidden;
@@ -60,7 +60,7 @@ body {
   vertical-align: middle;
   display: inline-block;
   margin-top: -3px;
-} 
+}
 /*About Us Page*/
 .header-img {
   position: relative;
@@ -73,8 +73,8 @@ body {
   max-width: 100%;
 }
 .content {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 .content h1, h2 {
   text-align: center;
@@ -104,7 +104,7 @@ body {
   place-items: center;
 }
 .slider {
-  height: 200px; 
+  height: 200px;
   width: 300px;
   display: grid;
   place-items: center;
