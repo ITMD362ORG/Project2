@@ -10,14 +10,14 @@ Grey: #6f8695
     margin: 0px;
     padding: 0px;
 }
-#top-navbar{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car2.jpg);
+.top-navbar{
     width: 100%;
     height: 70vh;
     background-size: cover;
     background-position: center;
     text-align: center;
 }
+
 #navbar-container {
     margin: 0px;
     padding: 0px;
@@ -44,14 +44,22 @@ Grey: #6f8695
 }
 
 /*Home Page*/
-
+#homeNav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car1.jpg);
+}
 /*About Us Page*/
-
+#aboutNav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car3.jpg);
+}
 /*Purchase Page*/
+#purchNav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/parts.jpg);
+}
+/*
 .purchase h1{
     color: #b0cb96;
     padding: 10px 0px 0px 10px ;
-}
+}*/
 #PurchaseNote{
     padding: 5px;
 }
