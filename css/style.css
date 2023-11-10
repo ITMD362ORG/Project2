@@ -118,17 +118,18 @@ body {
 #p1{
   padding-top: 20px;
 }
-#galery {
-  text-decoration: underline;
-  padding-top: 10px;
-  padding-bottom: 70px;
-  font-size: 30px;
-  font-weight: bold;
-}
 .slider-section{
   min-height: 100vh;
   display: grid;
   place-items: center;
+  padding-top: 0;
+}
+#gallery {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -20;
+  margin-bottom: 0;
 }
 .slider {
   height: 200px;
