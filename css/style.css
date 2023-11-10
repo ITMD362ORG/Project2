@@ -29,7 +29,7 @@ Grey: #6f8695
     font-size: 1.2em;
 }
 #navbar-container a:hover:not(.onpage) {
-    background-color: #9f2919; /*Silightly darker red as accents*/
+    background-color: #9f2919;
 } 
 #navbar-container .onpage {
     background-color: #cea23d;
