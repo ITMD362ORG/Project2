@@ -75,9 +75,17 @@ body {
    display: grid;
    place-items: center;
 }
-img {
+.slider img {
     height: 100%;
     width: 100%;
+}
+.image-slider {
+    display: grid;
+    place-items: center;
+}
+.slider-track {
+    display: flex;
+    width: calc(200px*12);
 }
 /*Purchase Page*/
 .purchase h1{
