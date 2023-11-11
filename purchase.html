@@ -18,7 +18,7 @@
       <nav class="top-navbar" id="purchNav">
         <div id="navbar-container">
           <div class="logo">
-            <h1 class="logo">MGBD PARTS</h1>
+            <h1 class="logo""><a href="index.html">MGBD PARTS</a></h1>
           </div>
           <ul id="links">
             <li><a href="index.html">Home</a></li>
@@ -30,38 +30,58 @@
         </div>
       </nav>
     </header>
-    <div id="PurchaseNote">
+    <div id="purchNote">
       <h1 id="purchH1">Purchase</h1>
       <h3>Please Note:</h3>
-      <p>
-        Shipping costs will calculated on all non-uk orders before your payment
-        is fully processed and the deliveries outside the uk mainland may have
-        duties to pay before the delivery is completed. We will send you
-        tracking details, but any extra costs we incur due to failures to pay
-        duties will be passed onto you directly.
-      </p>
-      <p>
-        Due to the volume of work at present please place your order through our
-        webstore where possible, priority will be given to the online order,
-        thank you for your consideration.
-      </p>
-      <p>
-        If we are slow answering the phone, its because we are either picking
-        and packing parts or working in the workshop, so leave a message and we
-        will try and call you back when we are quieter.
-      </p>
+      <ul>
+        <li>Shipping costs will calculated on all non-uk orders before your payment
+          is fully processed and the deliveries outside the uk mainland may have
+          duties to pay before the delivery is completed. We will send you
+          tracking details, but any extra costs we incur due to failures to pay
+          duties will be passed onto you directly.
+        </li>
+        <li>
+          Due to the volume of work at present please place your order through our
+          webstore where possible, priority will be given to the online order,
+          thank you for your consideration.
+        </li>
+        <li>
+          If we are slow answering the phone, its because we are either picking
+          and packing parts or working in the workshop, so leave a message and we
+          will try and call you back when we are quieter.
+        </li>
+      </ul>
       <p>Thank you for your understanding.</p>
     </div>
-    <div>
-      <!--grid boxes with things and pictures and the like-->
+    <div class="order">
+      <form name="orderForm"  action="#" onsubmit="return validateForm()" method="post" autocomplete="on">
+        <label for="first">First Name:</label>
+        <input type="text" name="firstName" id="first">
+        <label for="last">Last Name:</label>
+        <input type="text" name="lastName" id="last">
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <label for="order">Order Details:</label>
+        <textarea id="order" name="order" rows="4"></textarea>
+        <input type="submit" value="Order Now!">
+      </form>
     </div>
     <footer>
+      <div class="custom-fb-like" onclick="likeFacebookPage()">
+        <img src="media/fb3.jpg" alt="Facebook Logo" />
+        </div>
+        <script>
+          function likeFacebookPage() {
+            window.location.href = "https://www.facebook.com/roverp6parts";
+          }
+        </script>
       <div>
         <p>&copy; 2023 MGBD Parts & Services| <a href="terms.html">Terms and Conditions</a></p>
       </div>
       <div>
         <p>Contact us!</p>
         <p>+44 1902 689975</p>
-      </div></footer>
+      </div>
+    </footer>
   </body>
 </html>
