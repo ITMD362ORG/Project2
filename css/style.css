@@ -11,7 +11,6 @@ Grey: #6f8695
   padding: 0px;
 }
 body {
-    background-color: #6f8695;
     font-family: 'Cinzel', serif;
     color: #272d2d;
     margin: 0;
@@ -20,18 +19,27 @@ body {
 .logo {
   float: left;
 }
-
+.top-navbar{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car1.jpg);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
 #navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #b7301d;
-  padding: 10px;
+  width:100%;
+  padding: 0px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color:#fff;
 }
 #navbar-container .logo {
   display: flex;
   align-items: center;
   padding: 0 20px;
+  float: right;
 }
 #navbar-container .logo-img {
   padding-left: 10%;
@@ -47,7 +55,7 @@ body {
 }
 #navbar-container a {
   display: block;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 14px;
   text-decoration: none;
@@ -60,7 +68,19 @@ body {
 #navbar-container .onpage {
   background-color: #cea23d;
 }
+footer{
+  background-color: #6f8695;
+  color: #fff;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
 /*Home Page*/
+#homeNav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car3.jpg);
+}
 .fb-like-container {
   text-align: center;
   margin: 20px;
@@ -81,6 +101,9 @@ body {
   margin-top: -3px;
 }
 /*About Us Page*/
+#aboutNav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car2.jpg);
+}
 .header-img {
   position: relative;
   width: 100%;
@@ -178,13 +201,19 @@ body {
   transform: translateZ(20px);
 }
 /*Purchase Page*/
+#purchNav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/parts.jpg);
+}
 .purchase h1{
   color: #b0cb96;
   padding: 10px 0px 0px 10px ;
 }
 #PurchaseNote{
   padding: 5px;
+  border: #b0cb96;
+  border-style: dashed;
 }
+
 /*media queries for About Us*/
 @keyframes play{
   0% {
