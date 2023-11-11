@@ -11,14 +11,19 @@ Grey: #6f8695
   padding: 0px;
 }
 body {
-    font-family: 'Cinzel', serif;
-    color: #272d2d;
-    margin: 0;
-    padding: 0;
-    
+  font-family: 'Cinzel', serif;
+  color: #272d2d;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   }
-.logo {
+.logo{
   float: left;
+}
+.logo a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
 }
 .top-navbar{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car1.jpg);
@@ -30,7 +35,7 @@ body {
 #navbar-container {
   background-color: #b7301d;
   width:100%;
-  padding: 0px 0;
+  padding: 0px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,29 +44,23 @@ body {
 #navbar-container .logo {
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0px;
   float: right;
-}
-#navbar-container .logo-img {
-  padding-left: 10%;
-  width: 150px;
-  height: 60px;
 }
 #navbar-container ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   flex: 1;
 }
-#navbar-container a {
+#navbar-container ul li a {
   display: block;
   color: #fff;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 1.2em;
-  padding: 14px;
 }
 #navbar-container a:hover:not(.onpage) {
   background-color: #9f2919;
@@ -72,8 +71,8 @@ body {
 footer{
   background-color: #6f8695;
   color: #fff;
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   width: 100%;
   padding: 20px;
@@ -235,16 +234,56 @@ footer{
 #purchNav{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/parts.jpg);
 }
-.purchase h1{
-  color: #b0cb96;
-  padding: 10px 0px 0px 10px ;
+#purchH1{
+  padding: 10px 0px 0px 10px;
+  text-align: center;
 }
-#PurchaseNote{
+#purchNote{
+  padding: 10px;
+}
+#purchNote p{
+  text-align: center;
+}
+#purchNote ul li{
+  margin-left: 10px;
+}
+.order{
+  background-color: #b0cb96;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  justify-self: center;
+}
+.order input{
+  width: 100%;
+  margin: 5px;
+  border: none;
+}
+.order textarea{
+  width: 100%;
+}
+.order input[type=submit]{
+  font-family: inherit;
+  background-color: #fff;
+  transition: .5s;
+  width: 100%;
   padding: 5px;
-  border: #b0cb96;
-  border-style: dashed;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+input[type=submit]:hover {
+  background-color: #869a73; 
+  color: #fff; 
+}
+/* media quearies for all pages*/
+
+/* collapsing nav bar */
+@media (min-width:900px) { 
+
+}
 /*media queries for About Us*/
 @keyframes play{
   0% {
