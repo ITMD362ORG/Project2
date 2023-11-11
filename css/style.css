@@ -15,6 +15,7 @@ body {
     color: #272d2d;
     margin: 0;
     padding: 0;
+    
   }
 .logo {
   float: left;
@@ -79,7 +80,7 @@ footer{
 }
 /*Home Page*/
 #homeNav{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/roverhome.jpeg);
 }
 .fb-like-container {
   text-align: center;
@@ -100,6 +101,36 @@ footer{
   display: inline-block;
   margin-top: -3px;
 }
+.products {
+    padding: 50px 0;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #b7301d;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #55150d;
+  }
+  
 /*About Us Page*/
 #aboutNav{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/car2.jpg);
