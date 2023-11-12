@@ -146,6 +146,7 @@ footer{
   position: relative;
   font-weight: bolder;
   display: inline-block;
+  font-size: 3em;
   padding-top: 90px;
   padding-bottom: 2px;
 
@@ -161,6 +162,8 @@ footer{
   
 }
 .content h2 {
+  font-size: 2em;
+  font-weight: bold;
   padding-top: 70px;
   padding-bottom: 30px;
 }
@@ -211,24 +214,30 @@ footer{
   float: left;
   margin-right: 15px;
   padding-right: 30px;
-  height: 450px;
-  width: 500px;
+  height: 600px;
+  width: 550px;
 }
 .p1-loc p {
+  font-size: 1.2em;
   text-align: justify;
   font-weight: bold;
+  line-height: 1.5;
   display: block;
   margin: 2px 0 0 0;
 }
 .p2-loc p {
+  font-size: 1.2em;
   text-align: justify;
   font-weight: bold;
+  line-height: 1.5;
   display: block;
   margin: 2px 0 0 0;
 }
 .p3-p6-loc p {
+  font-size: 1.2em;
   text-align: justify;
   font-weight: bold;
+  line-height: 1.5;
   display: block;
   margin: 2px 0 0 0;
 }
