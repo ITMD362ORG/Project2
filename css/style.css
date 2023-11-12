@@ -216,16 +216,19 @@ footer{
 }
 .p1-loc p {
   text-align: justify;
+  font-weight: bold;
   display: block;
   margin: 2px 0 0 0;
 }
 .p2-loc p {
   text-align: justify;
+  font-weight: bold;
   display: block;
   margin: 2px 0 0 0;
 }
 .p3-p6-loc p {
   text-align: justify;
+  font-weight: bold;
   display: block;
   margin: 2px 0 0 0;
 }
