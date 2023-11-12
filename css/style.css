@@ -379,9 +379,6 @@ input[type=submit]:hover {
 
 }
 /*media queries for About Us*/
-@media (min-width: 768px) {
-  
-}
 
 @media (min-width: 1024px) {
   .content {
@@ -404,7 +401,7 @@ input[type=submit]:hover {
     content: "";
     display: block;
     width: 100%;
-    border-bottom: 6px solid #b0cb96;
+    border-bottom: 6px solid #cea23d;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -504,6 +501,13 @@ input[type=submit]:hover {
   }
   #p2{
     padding-top: 100px;
+  }
+  #gallery {
+    border-bottom: 6px solid #cea23d;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: -20;
+    margin-bottom: 0;
   }
 }
 /*media queries for Home*/
