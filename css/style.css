@@ -499,7 +499,7 @@ input[type=submit]:hover {
     border-bottom: 6px solid #cea23d;
     font-size: 40px;
     font-weight: bolder;
-    margin-top: -20;
+    margin-top: -20px;
     margin-bottom: 0;
   }
 }
