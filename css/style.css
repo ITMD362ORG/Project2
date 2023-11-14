@@ -290,7 +290,7 @@ footer{
 }
 .image-slider::before,
 .image-slider::after {
-  background: linear-gradient(to right, #6f8695 100%);
+  background: linear-gradient(to right, #6f8695bf 0%, #6f8695 100%);
   content: '';
   height: 100%;
   width: 15%;
