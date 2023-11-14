@@ -158,8 +158,8 @@ footer{
   }
   
 /*About Us Page*/
-#aboutNav{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/cover.jpg);
+#aboutNav {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/cover.jpg);
   height: 70vh;
   background-size: cover;
 }
@@ -167,7 +167,8 @@ footer{
   text-align: center;
   padding: 20px;
 }
-.content h1, .content h2 {
+.content h1,
+.content h2 {
   text-align: center;
   font-size: 1.5em;
 }
@@ -204,38 +205,16 @@ footer{
   padding-left: 10px;
   padding-right: 10px;
 }
-.p1-loc {
-  padding: 10px;
-  overflow: hidden;
-  width: 100%;
-  margin-top: 1%;
-}
-.p2-loc {
-  padding: 10px;
-  overflow: hidden;
-  width: 100%;
-  margin-top: 1%;
-}
+.p1-loc,
+.p2-loc,
 .p3-p6-loc {
   padding: 10px;
   overflow: hidden;
   width: 100%;
   margin-top: 1%;
 }
-.p1-loc img {
-  float: none;
-  margin-right: 0;
-  padding-right: 0;
-  height: auto;
-  width: 100%;
-}
-.p2-loc img {
-  float: none;
-  margin-right: 0;
-  padding-right: 0;
-  height: auto;
-  width: 100%;
-}
+.p1-loc img,
+.p2-loc img,
 .p3-p6-loc img {
   float: none;
   margin-right: 0;
@@ -244,22 +223,8 @@ footer{
   width: 100%;
   padding-bottom: 20px;
 }
-.p1-loc p {
-  font-size: 1em;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.5;
-  display: block;
-  margin: 2px 0 0 0;
-}
-.p2-loc p {
-  font-size: 1em;
-  text-align: justify;
-  font-weight: bold;
-  line-height: 1.5;
-  display: block;
-  margin: 2px 0 0 0;
-}
+.p1-loc p,
+.p2-loc p,
 .p3-p6-loc p {
   font-size: 1em;
   text-align: justify;
@@ -273,17 +238,16 @@ footer{
   padding-bottom: 10px;
 }
 #p2 {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 #p3 {
   padding-bottom: 10px;
 }
-#p4, #p5, #p6{
+#p4,
+#p5,
+#p6 {
   padding-bottom: 20px;
-}
-#p2{
-  padding-top: 10px;
 }
 .slider-section {
   min-height: 100vh;
