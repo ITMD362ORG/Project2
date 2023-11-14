@@ -80,16 +80,22 @@ footer{
 #homeNav{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/roverhome.jpeg);
 }
-#title{
-    padding: 10px 0px 0px 10px;
-    text-align: center;
-  }
+#title {
+  padding: 10px 0px 0px 10px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 1%;
+}
 .intro,
 .notice,
 .hours,
 .services,
 .contact-info {
   text-align: center;
+  padding: 10px 0px 0px 10px;
   }
   .intro h2,
   .notice h2,
@@ -97,6 +103,8 @@ footer{
   .services h2,
   .contact-info h2 {
     font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 .fb-like-container {
   text-align: center;
@@ -120,13 +128,15 @@ footer{
 .products {
     padding: 50px 0;
   }
-  
+  .products h2{
+    font-weight: bold;
+    margin-left: 80px;
+  }
   .product-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
   .product {
     width: 300px;
     padding: 20px;
