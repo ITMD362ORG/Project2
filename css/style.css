@@ -285,7 +285,7 @@ footer{
 #p2{
   padding-top: 10px;
 }
-.slider-section{
+.slider-section {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -295,7 +295,7 @@ footer{
   border-bottom: 6px solid #b0cb96;
   font-size: 30px;
   font-weight: bolder;
-  margin-top: -20;
+  margin-top: -20px;
   margin-bottom: 0;
 }
 .slider {
@@ -321,10 +321,11 @@ footer{
 }
 .slider-track {
   display: flex;
-  width: calc(500px*12);
+  width: calc(500px * 12);
   animation: play 40s linear infinite;
 }
-.image-slider::before, .image-slider::after {
+.image-slider::before,
+.image-slider::after {
   background: linear-gradient(to right, #6f8695 100%);
   content: '';
   height: 100%;
@@ -337,19 +338,19 @@ footer{
   top: 0;
 }
 .image-slider::after {
-  background: linear-gradient(to left, rgba(49, 49, 49, 0.867)0%, rgba(255, 255, 255, 0)100%);
+  background: linear-gradient(to left, rgba(49, 49, 49, 0.867) 0%, rgba(255, 255, 255, 0) 100%);
   left: 0;
   top: 0;
 }
 .slider img:hover {
   transform: translateZ(20px);
 }
-@keyframes play{
+@keyframes play {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px*6));
+    transform: translateX(calc(-250px * 6));
   }
 }
 /*Purchase Page*/
