@@ -80,6 +80,24 @@ footer{
 #homeNav{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../media/roverhome.jpeg);
 }
+#title{
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+  }
+.intro,
+.notice,
+.hours,
+.services,
+.contact-info {
+  text-align: center;
+  }
+  .intro h2,
+  .notice h2,
+  .hours h2,
+  .services h2,
+  .contact-info h2 {
+    font-weight: bold;
+  }
 .fb-like-container {
   text-align: center;
   margin: 20px;
