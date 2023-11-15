@@ -26,8 +26,7 @@ body {
   padding: 10px;
 }
 .top-navbar {
-  height: auto;
-  min-height: 70vh;
+  height: 70vh;
   width: 100%;
   background-size: cover;
   background-position: center;
