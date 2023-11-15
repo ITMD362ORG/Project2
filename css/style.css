@@ -332,21 +332,21 @@ footer{
   border-bottom: 4px solid #b0cb96;
   margin: 0 auto;
 }
-#purchNote{
+.purchNote{
   padding: 10px;
   padding-bottom: 20px;
 }
-#purchNote h3 {
+.purchNote h3 {
   font-weight: bold;
   font-size: 18px;
   padding-bottom: 20px;
 }
-#purchNote p{
+.purchNote p{
   text-align: center;
   padding-top: 10px;
   font-weight: bold;
 }
-#purchNote ul li{
+.purchNote ul li{
   margin-left: 10px;
   line-height: 1.5;
 }
@@ -376,19 +376,21 @@ footer{
   margin-right: auto;
   margin-left: auto;
 }
-
 input[type=submit]:hover {
   background-color: #869a73;
   color: #fff;
 }
-/* media queries for all pages*/
 
-/* collapsing nav bar */
-@media (min-width:900px) {
-
+/* Media query for smaller screens */
+@media (min-width: 300px) {
+  #navbar-container{
+    flex-direction: column;
+  }
+  footer{
+    grid-template-columns: 1fr;
+  }
 }
-/*media queries for About Us*/
-
+/* Media query for larger screens */
 @media (min-width: 1024px) {
   .content {
     text-align: center;
@@ -479,16 +481,7 @@ input[type=submit]:hover {
     display: block;
     margin: 2px 0 0 0;
   }
-  #p1 {
-    padding-bottom: 10px;
-  }
-  #p2 {
-    padding-bottom: 10px;
-  }
-  #p3 {
-    padding-bottom: 10px;
-  }
-  #p4, #p5, #p6{
+  #p1, #p2, #p3, #p4, #p5, #p6{
     padding-bottom: 10px;
   }
   #p2{
@@ -502,6 +495,3 @@ input[type=submit]:hover {
     margin-bottom: 0;
   }
 }
-/*media queries for Home*/
-
-/*media queries for Purchase*/
