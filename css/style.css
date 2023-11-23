@@ -130,7 +130,7 @@ strong {
   margin: 0 auto;
 }
 .hours {
-  max-width: 310px;
+  max-width: 320px;
   margin: 0 auto;
 }
 .contact-info {
@@ -530,7 +530,7 @@ input[type=submit]:hover {
   .p2-loc p,
   .p3-p6-loc p {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 1.0em;
+    font-size: 1.1em;
     font-weight: bold;
     text-align: justify;
     line-height: 1.5;
