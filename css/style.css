@@ -91,6 +91,13 @@ footer{
   padding-bottom: 20px;
   margin-top: 1%;
 }
+strong {
+  font-weight: bolder;
+}
+.intro {
+  max-width: 700px;
+  margin: 0 auto;
+}
 .intro,
 .notice,
 .hours,
@@ -104,9 +111,31 @@ footer{
 .hours h2,
 .services h2,
 .contact-info h2 {
-  font-weight: bold;
-  padding-top: 20px;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 18px;
   padding-bottom: 10px;
+}
+.intro p,
+.notice p,
+.contact-info p,
+.hours ul,
+.services ul {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.notice {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.hours {
+  max-width: 290px;
+  margin: 0 auto;
+}
+.contact-info {
+  max-width: 380px;
+  margin: 0 auto;
 }
 .fb-like-container {
   text-align: center;
@@ -129,10 +158,19 @@ footer{
 }
 .products {
   padding: 50px 0;
+  line-height: 1.5;
   }
 .products h2{
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 22px;
   margin-left: 80px;
+}
+.products h3 {
+  font-weight: bolder;
+}
+.products p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 .product-container {
   display: flex;
@@ -155,6 +193,11 @@ footer{
 .price {
   font-weight: bold;
   color: #55150d;
+}
+.price p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
 }
 /*About Us Page*/
 #aboutNav {
@@ -224,7 +267,9 @@ footer{
 .p1-loc p,
 .p2-loc p,
 .p3-p6-loc p {
-  font-size: 1em;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
   text-align: justify;
   line-height: 1.5;
   display: block;
@@ -339,16 +384,21 @@ footer{
   padding-bottom: 20px;
 }
 .purchNote h3 {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 18px;
   padding-bottom: 20px;
+  margin: 2px 0 0 0;
+  padding-left: 10px;
 }
 .purchNote p{
+  font-weight: bolder;
   text-align: center;
-  padding-top: 10px;
-  font-weight: bold;
+  padding-top: 20px;
+
 }
 .purchNote ul li{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
   margin-left: 10px;
   line-height: 1.5;
 }
@@ -479,7 +529,9 @@ input[type=submit]:hover {
   .p1-loc p,
   .p2-loc p,
   .p3-p6-loc p {
-    font-size: 1.1em;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
     text-align: justify;
     line-height: 1.5;
     display: block;
