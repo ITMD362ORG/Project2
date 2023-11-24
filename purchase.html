@@ -29,7 +29,7 @@
       </nav>
     </header>
     <div class="purchNote">
-      <h1 id="purchH1">Purchase</h1>
+      <h1 class="purchH1">Purchase</h1>
       <h3>Please Note:</h3>
       <ul>
         <li>Shipping costs will calculated on all non-uk orders before your payment
@@ -84,12 +84,14 @@
             <option value="5">Buick</option>
           </select>
         </div>
+        <label for="order">Order Details:</label>
+        <textarea id="order" name="order" rows="4"></textarea>
         <input type="submit" value="Order Now!">
       </form>
     </div>
-    <div class="purchase-info">
-      <h1>Contact Information</h1>
-      <p>you don't see what you need please give us a call or drop us an email to sales@mgbdparts.co.uk</p>
+    <div id="purchEndnote">
+      <h1 class="purchH1">Contact Information</h1>
+      <p>If you don't see what you need please give us a call or drop us an email to sales@mgbdparts.co.uk</p>
     </div>
     <footer>
       <div class="custom-fb-like" onclick="likeFacebookPage()">
