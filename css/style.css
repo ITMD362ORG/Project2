@@ -536,7 +536,7 @@ input[type=submit]:hover {
   }
   .paragraphs {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -590,7 +590,7 @@ input[type=submit]:hover {
   .p2-loc p,
   .p3-p6-loc p {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 23px;
+    font-size: 22px;
     text-align: justify;
     line-height: 1.5;
     display: block;
