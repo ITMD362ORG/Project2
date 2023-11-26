@@ -417,18 +417,21 @@ strong {
 }
 .order{
   background-color: #b0cb96;
-  padding: 10px;
-  margin: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
   justify-self: center;
+}
+.order label{
+  margin: 10px;
 }
 .order input{
   font-weight: bold;
   width: 100%;
   margin: 5px;
+  padding: none;
   border: none;
+  display: flex;
+  flex-direction: row;
 }
 .order textarea{
   width: 100%;
@@ -448,6 +451,8 @@ input[type=submit]:hover {
 }
 .selections {
   position: relative;
+  width: 40%;
+  padding: 10px;
 }
 .selections select {
   display: none; 
@@ -491,7 +496,7 @@ input[type=submit]:hover {
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* Media query for smaller screens */
+/* Media query for medium screens */
 @media (min-width: 900px) {
   #navbar-container{
     flex-direction:row;
@@ -504,6 +509,18 @@ input[type=submit]:hover {
 }
 /* Media query for larger screens */
 @media (min-width: 1024px) {
+  .order{
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order input{
+    width: 25%;
+    margin: 5px;
+    border: none;
+  }
   .content {
     text-align: center;
     padding: 20px;
