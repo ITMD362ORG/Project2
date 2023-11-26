@@ -128,6 +128,7 @@ strong {
 .contact-info p,
 .hours ul,
 .services ul {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -175,7 +176,8 @@ strong {
   font-weight: bolder;
 }
 .products p {
-  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
 }
 .product-container {
   display: flex;
@@ -195,14 +197,13 @@ strong {
   max-height: 200px;
   object-fit: cover;
 }
-.price {
-  font-weight: bold;
-  color: #55150d;
-}
 .price p {
+  font-family: 'Titillium Web', sans-serif;
   font-weight: bolder;
+  color: #55150d;
   padding-top: 10px;
 }
+
 /*About Us Page*/
 #aboutNav {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/cover.jpg);
@@ -243,6 +244,8 @@ strong {
   padding-bottom: 20px;
 }
 .paragraphs {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -271,8 +274,8 @@ strong {
 .p1-loc p,
 .p2-loc p,
 .p3-p6-loc p {
-  font-size: 1.3em;
-  font-weight: bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   text-align: justify;
   line-height: 1.5;
   display: block;
@@ -387,13 +390,14 @@ strong {
   padding-bottom: 20px;
 }
 .purchNote h3{
- 
+  font-weight: bold;
   font-size: 18px;
   padding-bottom: 20px;
   margin: 2px 0 0 0;
   padding-left: 10px;
 }
 .purchNote p{
+  font-weight: bolder;
   text-align: center;
   padding-top: 20px;
 }
@@ -406,7 +410,8 @@ strong {
   margin-left: auto;
 }
 .purchNote ul li{
-  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
   margin-left: 10px;
   line-height: 1.5;
 }
@@ -420,6 +425,7 @@ strong {
   margin: 10px;
 }
 .order input{
+  font-weight: bold;
   width: 100%;
   margin: 5px;
   padding: none;
@@ -546,6 +552,8 @@ input[type=submit]:hover {
     padding-bottom: 30px;
   }
   .paragraphs {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -598,8 +606,8 @@ input[type=submit]:hover {
   .p1-loc p,
   .p2-loc p,
   .p3-p6-loc p {
-    font-size: 1.1em;
-    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
     text-align: justify;
     line-height: 1.5;
     display: block;
